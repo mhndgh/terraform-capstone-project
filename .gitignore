@@ -1,0 +1,6 @@
+.terraform
+http.pem
+terraform.tfstate
+terraform.tfstate.backup
+variables.tf
+terraform.tfvars
