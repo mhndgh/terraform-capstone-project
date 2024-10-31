@@ -1,5 +1,5 @@
 .terraform
-http.pem
+key.pem
 terraform.tfstate
 terraform.tfstate.backup
 variables.tf
