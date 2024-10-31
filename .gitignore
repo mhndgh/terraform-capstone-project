@@ -1,5 +1,6 @@
 .terraform
 key.pem
+key1.pem
 terraform.tfstate
 terraform.tfstate.backup
 variables.tf
