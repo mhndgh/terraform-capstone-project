@@ -15,7 +15,7 @@ resource "alicloud_instance" "bastion" {
   internet_charge_type       = "PayByTraffic"
   key_name                   = alicloud_ecs_key_pair.http.key_pair_name
 
-  user_data                  = base64encode(file("bastion-setup.sh"))
+  user_data = base64encode(file("bastion-setup.sh"))
 }
 
 output "bastion_server_public_ip" {
